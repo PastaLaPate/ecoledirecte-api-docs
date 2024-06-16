@@ -105,6 +105,10 @@ Si vous n'avez pas d'idée en voici un :
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 ```
 
+> [!NOTE]
+>
+> Pour faire croire que vous utilisez l'app mobile, utilisez EDMobile commr user agent
+
 ### Requêtes authentifiées
 
 Cela concerne toutes les routes à l'exception de `/login`. Il faut passer un `Header` à la requête avec le token (voir [login](#login)):
